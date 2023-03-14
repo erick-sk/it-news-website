@@ -1,9 +1,13 @@
 <script>
   import svelteLogo from './assets/svelte.svg'
   import Counter from './lib/Counter.svelte'
+  import "./app.css";
 </script>
 
 <main>
+  <h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1>
   <div>
     <a href="https://vitejs.dev" target="_blank" rel="noreferrer"> 
       <img src="/vite.svg" class="logo" alt="Vite Logo" />
